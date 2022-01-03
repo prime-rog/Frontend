@@ -1,0 +1,287 @@
+footer {
+    background-color: rgb(59, 5, 5);
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    float: inherit;
+    bottom: 0;
+    position: fixed;
+    width: -webkit-fill-available;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+
+.sign-up-form {
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.booo {
+    font-family: sans-serif;
+    background-image: url(../assests/pexels-leticia-azevedo-9459781.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sign-up-form h1 {
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup-bts {
+    background-color: #1c8adb;
+
+}
+
+.Google-btn {
+    background-color: #21afde;
+}
+
+a {
+    text-decoration: none;
+
+
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+.yoooo {
+    margin: 0;
+    padding: 0;
+    background: url(../assests/pexels-juliano-ferreira-9467294.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+
+
+}
+
+.log-inbox {
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+.log-inbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.log-inbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.log-inbox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.log-inbox input[type="submit"] {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.log-inbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+}
+
+.log-inbox a:hover {
+    color: #ffc107;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../assests/pexels-olenka-sergienko-5686475.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 70px;
+    margin-top: 80px;
+
+
+}
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+.hmmm {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.lmk {
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+
+}
+
+.hmmm:hover span {
+    width: 100%;
+
+}
+
+.hmmm:hover {
+    border: none;
+}
